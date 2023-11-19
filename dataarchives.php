@@ -5,7 +5,7 @@
 	{
 		function onContentPrepare($content, $article, $params, $limit){				
 			$document = JFactory::getDocument();
-			$document->addStyleSheet('plugins/content/aranger/style.css');	
+			$document->addStyleSheet('plugins/content/archives-seo/style.css');	
 
 			//ici si on ne veux que faire un remplacement 
 			$subst = "class=\"archives-seo\"";
