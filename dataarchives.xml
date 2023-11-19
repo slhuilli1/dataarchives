@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="Content">
+	<name>Archives</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Novembre 2023</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	<description>Ce plugin ajoute une icone lorsqu'un lien est taggé data-archive="oui"</description>
+	<files>
+		<filename plugin="dataarchives">dataarchives.php</filename>
+		<filename>dataarchives.xml</filename>			
+	</files>	
+</extension>
